@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/itemShare"
+        android:title="Share Story"
+        android:icon="@drawable/facebook_share_button"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/itemTextSize"
+        android:title="Change text size"
+        app:showAsAction="never"/>
+
+</menu>
